@@ -1,5 +1,4 @@
-package ejercicios_metodos_parte_1;
-import java.util.*;
+import java.util.Scanner;
 public class Ejercicio16 {
  
 static Scanner entrada=new Scanner(System.in);
@@ -25,7 +24,7 @@ static Scanner entrada=new Scanner(System.in);
 		}
  
 	public static double cambiarMoneda(String moneda, double euros) {
-		String libras, dolares, yenes;
+		String libras, dolares;
 		if (moneda==libras)
 		double cambio=euros*0.87;
 		return cambio;
